@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:model_class/Bmi_Calculator.dart';
+import 'package:model_class/Bmi_Result.dart';
 import 'package:model_class/class_model.dart';
 
 void main() {
@@ -11,9 +13,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: modelClass(),
+      home: Bmi_Calcolator(),
     );
   }
 }
