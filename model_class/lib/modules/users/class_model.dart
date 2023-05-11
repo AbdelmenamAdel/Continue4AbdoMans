@@ -1,15 +1,5 @@
 import 'package:flutter/material.dart';
-
-class userinformation {
-  int id;
-  int phone;
-  String name;
-  userinformation({
-    required this.id,
-    required this.phone,
-    required this.name,
-  });
-}
+import 'package:model_class/models/user/user_model.dart';
 
 class modelClass extends StatelessWidget {
   modelClass({super.key});
